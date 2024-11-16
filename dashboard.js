@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded',()=>{
             option.value = result.nombre_producto;
             item.appendChild(option);
           });
-
+// hola
           item.addEventListener('click', () => {
             buscar.value = item.value;
             item.style.display = "none";
